@@ -80,3 +80,30 @@ Con códigos de escape ANSI, por ejemplo: System.out.println("\u001B[31m" + "tex
 1. Tener instalado *Java JDK* (versión 8 o superior).
 2. Clonar el repositorio o abrir la carpeta en tu entorno de desarrollo (Visual Studio Code con Extension Pack for Java, IntelliJ IDEA, etc.).
 3. Compilar y ejecutar el archivo principal del proyecto.
+
+
+
+## Programas
+ 
+### TablaMultiplicar.java
+Este programa pide un número y muestra su tabla de multiplicar del 1 al 10.
+
+ ![Tabla de multiplicar](imagenes/tabla_multiplicar.png)
+
+
+### juegoAdivinaNumero.java
+Es un juego donde el programa genera un número al azar entre dos números que indica el usuario. Luego el usuario intenta adivinarlo y el programa le dice si debe intentar con un número mayor o menor.
+
+![Juego adivina numero](imagenes/adivina_numero.png)
+ 
+### Menu.java
+Este programa tiene un menú con varias opciones de ejercicios matemáticos:
+- Fibonacci.
+- Número primo.
+- Raíces de una ecuación cuadrática.
+- Promedio de números.
+- Salir.
+
+![Menú](imagenes/menu.png)
+ 
+ 
