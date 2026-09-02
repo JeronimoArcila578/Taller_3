@@ -78,6 +78,11 @@ public class Menu {
             } else if (opcion == 4) {
                 System.out.print("Cuantos numeros: ");
                 int n = sc.nextInt();
+                while (n <= 0) {
+                    System.out.println("Debe ingresar una cantidad mayor que 0.");
+                    System.out.print("Cuantos numeros: ");
+                    n = sc.nextInt();
+                }
                 double suma = 0;
                 for (int i = 1; i <= n; i++) {
                     System.out.print("Numero " + i + ": ");
